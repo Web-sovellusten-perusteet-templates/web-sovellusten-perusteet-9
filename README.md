@@ -2,7 +2,7 @@
 
 Tässä tehtävässä rakennat Reactilla sijoituslaskurin. Harjoituksen tavoitteena on kerrata Reactin perusteita: komponentit, propsit, `useState`, kontrolloidut inputit, tapahtumankäsittely, taulukon renderöinti `.map()`-metodilla ja datan välittäminen kuvaajakomponentille.
 
-Tässä tehtävässä ei käytetä `useEffect`iä, custom hookeja, `useReducer`ia, `useMemo`a, REST-rajapintoja tai localStoragea.
+
 
 ## Ennen aloittamista
 

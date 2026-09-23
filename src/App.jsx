@@ -12,6 +12,13 @@ const initialFormValues = {
   years: '10',
 }
 
+const exampleChartData = [
+  { year: 1, amount: 1200 },
+  { year: 2, amount: 2550 },
+  { year: 3, amount: 4100 },
+  { year: 4, amount: 5850 },
+];
+
 export default function App() {
   const [formValues, setFormValues] = useState(initialFormValues)
   const [results, setResults] = useState([])
@@ -65,7 +72,7 @@ export default function App() {
         <p className="hint">
           Tämä kuvaaja on starterissa esimerkkinä. Käytä samaa rakennetta oman InvestmentChart-komponentin toteutuksessa.
         </p>
-        <ExampleChart />
+        <ExampleChart data={ exampleChartData }/>
       </section>
     </main>
   )

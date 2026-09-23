@@ -8,7 +8,7 @@ export function calculateInvestment({
   // 1. Muunna arvot numeroiksi.
   // 2. Laske vuosittainen lisäys: monthlyContribution * 12.
   // 3. Toista laskenta vuosille 1...years.
-  // 4. Palauta taulukko olioita: { year, invested, returns, total }.
+  // 4. Palauta taulukko, jossa olioita seuraavalla rakenteella: { year, invested, returns, total }.
   // 5. Älä pyöristä laskennan väliarvoja.
 
   return []
